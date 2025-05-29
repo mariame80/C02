@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int nombre1, nombre2, somme;
+    int number1, number2, sum;
 
-    // Demander à l'utilisateur d'entrer deux entiers
-    printf("Entrez deux entiers : ");
-    scanf("%d %d", &nombre1, &nombre2);
+    // Ask the user to enter two integers
+    printf("Enter two integers: ");
+    scanf("%d %d", &number1, &number2);
 
-    // Calculer la somme
-    somme = nombre1 + nombre2;
+    // Calculate the sum
+    sum = number1 + number2;
 
-    // Affiche la somme
-    printf("La somme de %d et %d est %d\n", nombre1, nombre2, somme);
+    // Display the sum
+    printf("The sum of %d and %d is %d\n", number1, number2, sum);
 
     return 0;
 }
