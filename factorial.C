@@ -3,8 +3,8 @@
 
 int main() {
   int nombre, i;
-  long int factorielle = 1; // Déclaration et initialisation
-  
+  long int factorielle = 1;
+
   scanf("%d", &nombre);
 
   if (nombre < 0) {

@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "factorial.C": "cpp"
+        "factorial.C": "cpp",
+        "stdio.h": "c"
     }
 }
