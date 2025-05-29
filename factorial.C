@@ -1,21 +1,21 @@
+
 #include <stdio.h>
 
 int main() {
-  int number, i;
-  long int factorial = 1; // Using long int to handle large factorials
+  int nombre, i;
+  long int factorielle = 1; // Déclaration et initialisation
+  
+  scanf("%d", &nombre);
 
-  printf("Enter an integer: ");
-  scanf("%d", &number);
-
-  if (number < 0) {
-    printf("Factorial is not defined for negative numbers.\n");
+  if (nombre < 0) {
+    printf("La factorielle n'est pas définie pour les nombres négatifs.\n");
   } else {
-    // Calculate the factorial
-    for (i = 1; i <= number; i++) {
-      factorial *= i;
+    // Calcul de la factorielle
+    for (i = 1; i <= nombre; i++) {
+      factorielle *= i;
     }
 
-    printf("The factorial of %d is: %ld\n", number, factorial);
+    printf("La factorielle de %d est : %ld\n", nombre, factorielle);
   }
 
   return 0;
