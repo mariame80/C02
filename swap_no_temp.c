@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main() { // fonction principale
     int a, b;
     scanf("%d %d", &a, &b);
     
@@ -8,6 +8,6 @@ int main() {
     b = a - b;
     a = a - b;
     
-    printf("Après échange: a = %d, b = %d\n", a, b);
+    printf("Après échange: a = %d, b = %d", a, b);
     return 0;
 }
