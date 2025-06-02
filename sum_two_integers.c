@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include <stdio.h>//bibliothéque
 
-int main() {
-    int number1, number2, Somme;
+int main()//foction principal
+{
+    int number1, number2, Somme; // déclariation de variable
 
-    scanf("%d %d", &number1, &number2);
+    scanf("%d %d", &number1, &number2); // lecture de mes variables
 
-    // Calculate the Somme
+    // Calculate la Somme
     Somme = number1 + number2;
-
-    // Display the sum
+    // messager d'affisage 
     printf("La somme est : %d\n", Somme);
 
     return 0;

@@ -1,8 +1,7 @@
-#include <stdio.h> // <-- Ajoutez cette ligne !
-
-int main()
+#include <stdio.h> //bibliothéques
+int main()//fonction principal
 {
-    int nbre, factorial = 1;
+    int nbre, factorial = 1;// declaration des variable
 
     scanf("%d", &nbre);    // Lecture de l'entier saisi par l'utilisateur
 

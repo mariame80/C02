@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include <stdio.h> //bibliothèque
 
-int main() {
-    printf("Hello, World!\n");
-    return 0;
+int main() { // fonction principale
+    printf("Hello, World!\n"); // message d'affichage
+    return 0; // retour a la ligne 
 }
 
