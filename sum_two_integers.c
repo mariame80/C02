@@ -11,5 +11,5 @@ int main()//foction principal
     // messager d'affisage 
     printf("La somme est : %d\n", Somme);
 
-    return 0;
+    // return 0;
 }
